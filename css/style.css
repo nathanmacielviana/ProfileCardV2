@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  body
+  {
+    font-family: "Inconsolata", monospace;
+    background: #111111;
+    padding: 2rem;
+    margin-top: 3.5rem;
+  }
+
+  .profile-container
+  {
+    background: #111111;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    color: white;
+    border: 3px solid white;
+  }
+
+  .content
+  {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .section-left,
+  .section-right{flex: 1 1 300px;}
+
+  .user-card{ text-align: center;}
+
+  .user-card img
+  {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+  }
+
+  .user-card h2{margin: 1rem 0 0.5rem; font-size: 1.5rem;}
+
+  .social-icons
+  {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .social-icons a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .3s ease;
+  }
+
+  .social-icons a:hover{transform: scale(1.1);}
+
+  .social-icons i
+  {
+    background-color: transparent;
+    color: white;
+    margin-top: 15px;
+    padding: 3px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-block;
+  }
+
+  .section-right p
+  {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .buttons
+  {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .buttons a
+  {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    background: #E31C25;
+    color: white;
+    font-weight: bold;
+    transition: .3s ease;
+  }
+
+  .buttons a:hover{transform: scale(1.1); box-shadow: 5px 5px 0px black;}
+
+  footer
+  {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1C1C1C;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  /*ajuste responsivo*/
+  @media (max-width: 600px)
+  {
+    .section-right p
+    {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .buttons
+    {
+        align-items: center;
+        justify-content: center;
+    }
+  }
