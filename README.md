@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Status-Up-sucess"/>
-<img src="https://img.shields.io/badge/Lan%C3%A7amento-%20Dez 2024-sucess">
+<img src="https://img.shields.io/badge/Lan%C3%A7amento-%20May 2025-sucess">
 <img src="https://img.shields.io/badge/License-MIT%20-blue">
   <img src="https://img.shields.io/badge/Ver-2.0%20-blue">
 </p>
